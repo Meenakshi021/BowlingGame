@@ -70,6 +70,7 @@ As part of this game, we can do the following:
 }
 ```
 ### c.) Player details
+
 **API**: GET */bowlingGame/getPlayerDetail/{playerId}*
 
 **Description**: This API will return the current scores of a player based on their player id. These scores contains : currentFrameNumber, totalScore, strikeCount, spareCount, missedStrikeCount, scorePerframe and gameStatus.Description of these properties are explained as comments in the code.
@@ -98,6 +99,7 @@ As part of this game, we can do the following:
 ```
 
 ### d.) Game details
+
 **API**: GET */bowlingGame/getGameDetail/{gameId}*
 
 **Description**: This API returns the list of all players and their score details who are playing a game, based on the passed game id as input.
@@ -142,6 +144,15 @@ As part of this game, we can do the following:
 ```
 
 
+### Future Scope 
+
+* As future scope I would like to include the following 
+    * Game arena creation with count of lanes available
+    * Lane allocation for players more than 3
+    * Unit test coverage
+    * Swagger implementation 
+    * Better exception handling
+    
 
 
 
