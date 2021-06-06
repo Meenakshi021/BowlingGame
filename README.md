@@ -143,6 +143,9 @@ As part of this game, we can do the following:
 ]
 ```
 
+### DB schema looks like below:
+![DB_Image](/DB_Image.png)
+
 
 ### Future Scope 
 
