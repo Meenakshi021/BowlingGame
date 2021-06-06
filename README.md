@@ -116,28 +116,28 @@ As part of this game, we can do the following:
         "name": "Prashant",
         "userscore": {
             "id": 1,
-            "currentFrameNumber": 1,
-            "totalScore": 2,
-            "strikeCount": 0,
+            "currentFrameNumber": 10,
+            "totalScore": 102,
+            "strikeCount": 3,
             "spareCount": 0,
-            "missedStrikeCount": 0,
-            "scorePerframe": "1 1 ",
+            "missedStrikeCount": 5,
+            "scorePerframe": "1 1 2 6 8 1 0 1 0 4 0 0 7 0 X _ 1 8 X _ 2 X ",
             "userId": 1,
-            "gameStatus": "Game In Progress"
+            "gameStatus": "Game Over"
         }
     },
     {
         "name": "Meenakshi",
         "userscore": {
             "id": 2,
-            "currentFrameNumber": 1,
-            "totalScore": 6,
+            "currentFrameNumber": 10,
+            "totalScore": 66,
             "strikeCount": 0,
-            "spareCount": 0,
-            "missedStrikeCount": 1,
-            "scorePerframe": "6 0 ",
+            "spareCount": 1,
+            "missedStrikeCount": 7,
+            "scorePerframe": "6 0 8 1 0 1 5 / 0 7 4 0 3 0 6 0 6 0 6 3 ",
             "userId": 2,
-            "gameStatus": "Game In Progress"
+            "gameStatus": "Game Over"
         }
     }
 ]
